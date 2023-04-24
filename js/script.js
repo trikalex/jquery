@@ -67,4 +67,7 @@ $(document).ready(function() {
     $("#myButton").removeClass("blueBox").addClass("border");
     $("p").css("color", "blue").slideUp(2000).slideDown(2000);
     $("a").attr("href", "http://www.example.com");
+
+    $("#myButton").removeClass("blueBox");
+    $("#myButton").addClass("border");
 }); 
